@@ -97,7 +97,7 @@ export const projects = [
   title: "Algo Trade System",
   status: "In Development",
   description: "A full-stack algorithmic trading system with backend, frontend, and Supabase-powered data layer — currently under active development.",
-  tech: ["Node.js", "Supabase", "Docker", "Netlify Functions"],
+  tags: ["Node.js", "Supabase", "Docker", "Netlify Functions"],
   github: "https://github.com/khetmalisvedant-tech/Algo-Trade-System",
   
 },
@@ -105,7 +105,7 @@ export const projects = [
   title: "AutoFlow AI",
   status: "Semifinalist — ET AI Hackathon 2026",
   description: "A multi-agent autonomous workflow system built for the Economic Times AI Hackathon 2026, addressing Agentic AI for Autonomous Enterprise Workflows and Domain-Specialized AI Agents (Agriculture). Four collaborating agents — Decision, Action, Monitoring, and Verification — process real-time weather data to generate autonomous farming recommendations, with built-in fallback logic for demo-grade reliability.",
-  tech: ["React", "Vite", "FastAPI", "Python", "Groq (LLaMA 3)", "Vercel", "Render"],
+  tags: ["React", "Vite", "FastAPI", "Python", "Groq (LLaMA 3)", "Vercel", "Render"],
   achievement: "Advanced to the semifinal round",
   github: "https://github.com/khetmalisvedant-tech/ET_Hackathon",
   
