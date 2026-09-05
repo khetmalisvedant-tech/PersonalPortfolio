@@ -170,7 +170,7 @@ export const education = {
   coursework: [
     "Design and Analysis of Algorithm",
     "Object-Oriented Programming",
-    "Data Structure Algorithm"
+    "Data Structure Algorithm",
     "Web Development",
     "Database Management Systems",
     "Computer Networks",
