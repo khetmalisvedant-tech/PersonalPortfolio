@@ -101,15 +101,6 @@ export const projects = [
   github: "https://github.com/khetmalisvedant-tech/Algo-Trade-System",
   
 },
-  {
-  title: "AutoFlow AI",
-  status: "Semifinalist — ET AI Hackathon 2026",
-  description: "A multi-agent autonomous workflow system built for the Economic Times AI Hackathon 2026, addressing Agentic AI for Autonomous Enterprise Workflows and Domain-Specialized AI Agents (Agriculture). Four collaborating agents — Decision, Action, Monitoring, and Verification — process real-time weather data to generate autonomous farming recommendations, with built-in fallback logic for demo-grade reliability.",
-  tags: ["React", "Vite", "FastAPI", "Python", "Groq (LLaMA 3)", "Vercel", "Render"],
-  achievement: "Advanced to the semifinal round",
-  github: "https://github.com/khetmalisvedant-tech/ET_Hackathon",
-  
-},
 ];
 
 export const experience = [
