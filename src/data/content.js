@@ -137,8 +137,8 @@ export const timeline = [
 ];
 
 export const achievements = [
-  { label: "Hackathons Led", value: 8+ },
-  { label: "Projects Built", value: 5+ },
+  { label: "Hackathons Led", value: 8 },
+  { label: "Projects Built", value: 5 },
   { label: "Round 2 Finishes", value: 1 },
   { label: "CGPA", value: 8.48 },
 ];
