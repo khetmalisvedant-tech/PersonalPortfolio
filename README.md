@@ -9,10 +9,9 @@
 [![Three.js](https://img.shields.io/badge/Three.js-R3F-black?style=flat-square&logo=three.js&logoColor=white)](https://threejs.org)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
-🔗 **Live site:** [YOUR_LIVE_URL_HERE](YOUR_LIVE_URL_HERE)
+🔗 **Live site:** [(ved-kportfolio.netlify.app/)]
 
-![Portfolio preview](public/preview.gif)
-<!-- Record a short scroll-through with a screen recorder and drop it in public/preview.gif -->
+ -->
 
 ---
 
@@ -24,13 +23,6 @@
 - **Fully data-driven content** — every section (projects, skills, experience, socials) pulls from a single `src/data/content.js` file, so the site can be updated without touching component code
 - **Working contact form** — validation-ready, EmailJS integration included
 - **Fast dev/build pipeline** — Vite + Tailwind CSS v4
-
-## 🖼️ Preview
-
-| Hero | Projects | Contact |
-|------|----------|---------|
-| ![Hero](public/screenshot-hero.png) | ![Projects](public/screenshot-projects.png) | ![Contact](public/screenshot-contact.png) |
-<!-- Add 3 screenshots to public/ and update filenames -->
 
 ## 🛠️ Tech Stack
 
