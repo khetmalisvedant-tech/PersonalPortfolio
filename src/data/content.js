@@ -167,7 +167,7 @@ export const education = {
   graduation: "Expected Graduation: 2029",
   gpa: "Current CGPA: 8.48 / 10.0",
   year: "Second Year (2026-27)",
-  coursework: [
+    coursework: [
     "Design and Analysis of Algorithm",
     "Object-Oriented Programming",
     "Data Structure Algorithm",
