@@ -2,15 +2,15 @@ export const profile = {
   name: "Vedant S. Khetmalis",
   roles: ["AI Developer", "Full Stack Developer", "Hackathon Team Leader"],
   education:
-    "Bachelor of Engineering in Computer Science/IT, Nxtwave Innovation of Advanced Technology, Pune",
-  status: "First Year (2025-26)",
-  gpa: "8.55 / 10.0",
+    "Bachelor of Technology in Computer Science Engineering/DS, Nxtwave Innovation of Advanced Technology, ADYPU, Pune",
+  status: "Second Year (2026-27)",
+  cgpa: "8.48 / 10.0",
   graduation: "Expected Graduation: 2029",
   goal:
-    "First-year Computer Science student with hands-on experience in full-stack development and AI integration, seeking an internship to contribute to challenging projects and grow as a developer.",
+    "Second-year Computer Science student with hands-on experience in full-stack development and AI integration, seeking an internship to contribute to challenging projects and grow as a developer.",
   email: "khetmalisvedant@gmail.com",
   phone: "+91-96730-07541",
-  location: "Goa, India",
+  location: "Pune Maharashtra, India",
   linkedin: "https://linkedin.com/in/khetmalis-vedant-a9866b370",
   github: "https://github.com/khetmalisvedant-tech",
 };
@@ -28,8 +28,10 @@ export const skillGroups = [
       { name: "Python", level: 85 },
       { name: "JavaScript", level: 80 },
       { name: "HTML", level: 90 },
-      { name: "CSS", level: 85 },
+      { name: "CSS", level: 90 },
       { name: "SQL", level: 75 },
+      { name: "Mongo DB", level: 70},
+      { name: "C++", level:70}
     ],
   },
   {
@@ -37,6 +39,8 @@ export const skillGroups = [
     skills: [
       { name: "React.js", level: 80 },
       { name: "REST APIs", level: 75 },
+      { name: "Node.js", level: 80},
+      { name: "Express.js", level:80},
     ],
   },
   {
@@ -67,6 +71,7 @@ export const softSkills = [
   "Real World Problem Solving",
   "Fast Learner",
   "Adaptability",
+  "Critical Thinking",
 ];
 
 export const projects = [
@@ -78,7 +83,6 @@ export const projects = [
       "Led a cross-functional team of 4 developers to design and launch an AI-powered workflow automation tool that advanced to Round 2 (top 15%). Architected the core system with a React.js frontend and Python backend with REST API integration for third-party services, and implemented AI-driven task prioritization using LLM APIs — reducing manual workflow configuration time by ~40%.",
     tags: ["React.js", "Python", "REST API", "LLM APIs"],
     github: "https://github.com/khetmalisvedant-tech",
-    demo: "#",
   },
   {
     title: "AI Audio Mentor & Analytics AI",
@@ -88,26 +92,32 @@ export const projects = [
       "Built two complete, demo-ready AI applications in a single 48-hour hackathon (completed by only 3 teams). AI Audio Mentor is a voice-based guidance system using the Murf.ai API to generate personalized MP3 audio responses. Analytics AI is a real-time dashboard tracking user engagement, session data, and interaction patterns using React.js + Firebase. Shortlisted for the post-hackathon mentorship program.",
     tags: ["React.js", "Firebase", "Murf.ai API"],
     github: "https://github.com/khetmalisvedant-tech",
-    demo: "#",
   },
+ {
+  title: "Algo Trade System",
+  status: "In Development",
+  description: "A full-stack algorithmic trading system with backend, frontend, and Supabase-powered data layer — currently under active development.",
+  tech: ["Node.js", "Supabase", "Docker", "Netlify Functions"],
+  github: "https://github.com/khetmalisvedant-tech/Algo-Trade-System",
+  
+},
   {
-    title: "Secure Wi-Fi Chat Application",
-    role: "Solo Developer — Personal Project",
-    period: "August 2024",
-    description:
-      "Built a peer-to-peer LAN chat application enabling encrypted device-to-device messaging without internet dependency. Implemented socket programming (Python sockets library) for real-time bidirectional communication across a local network, with AES-256 encryption and RSA key exchange for secure communications.",
-    tags: ["Python", "Sockets", "AES-256", "RSA"],
-    github: "https://github.com/khetmalisvedant-tech",
-    demo: "#",
-  },
+  title: "AutoFlow AI",
+  status: "Semifinalist — ET AI Hackathon 2026",
+  description: "A multi-agent autonomous workflow system built for the Economic Times AI Hackathon 2026, addressing Agentic AI for Autonomous Enterprise Workflows and Domain-Specialized AI Agents (Agriculture). Four collaborating agents — Decision, Action, Monitoring, and Verification — process real-time weather data to generate autonomous farming recommendations, with built-in fallback logic for demo-grade reliability.",
+  tech: ["React", "Vite", "FastAPI", "Python", "Groq (LLaMA 3)", "Vercel", "Render"],
+  achievement: "Advanced to the semifinal round",
+  github: "https://github.com/khetmalisvedant-tech/ET_Hackathon",
+  
+},
 ];
 
 export const experience = [
   {
     title: "Multi-Competition Team Leader",
-    period: "2024 – Present",
+    period: "2025 – Present",
     description:
-      "Led teams across 5+ competitive events (hackathons, coding challenges); achieved Round 2 advancement in the Economic Times Hackathon.",
+      "Led teams across 5+ competitive events (hackathons, coding challenges); achieved Round 2 (Semifinalist) advancement in the Economic Times Hackathon.",
   },
   {
     title: "Civic-Tech Volunteer — Bharat Nirman Urban Development System",
@@ -119,18 +129,18 @@ export const experience = [
 
 export const timeline = [
   { year: "School", label: "Built a foundation in mathematics and logic." },
-  { year: "2025-26", label: "Started B.E. Computer Science/IT at Nxtwave Innovation of Advanced Technology, Pune." },
-  { year: "Aug 2024", label: "Built the Secure Wi-Fi Chat Application solo project." },
-  { year: "Sep 2024", label: "Full-stack developer at the Murf AI Hackathon; civic-tech volunteer on Bharat Nirman." },
-  { year: "Oct 2024", label: "Led AUTO-FLOW AI to Round 2 (top 15%) at the Economic Times Hackathon." },
+  { year: "2025-26", label: "Started B.Tech. Computer Science Engineering/DS at Nxtwave Innovation of Advanced Technology, Pune." },
+  { year: "Aug 2025", label: "Built the Secure Wi-Fi Chat Application solo project." },
+  { year: "Sep 2025", label: "Full-stack developer at the Murf AI Hackathon; civic-tech volunteer on Bharat Nirman." },
+  { year: "Oct 2025", label: "Led AUTO-FLOW AI to Round 2 (top 15%) at the Economic Times Hackathon." },
   { year: "Future Goals", label: "Land an internship and grow into a product-focused AI Engineer." },
 ];
 
 export const achievements = [
-  { label: "Hackathons Led", value: 5 },
-  { label: "Projects Built", value: 3 },
+  { label: "Hackathons Led", value: 8+ },
+  { label: "Projects Built", value: 5+ },
   { label: "Round 2 Finishes", value: 1 },
-  { label: "GPA", value: 8 },
+  { label: "CGPA", value: 8.48 },
 ];
 
 export const services = [
@@ -152,14 +162,15 @@ export const whyChooseMe = [
 ];
 
 export const education = {
-  degree: "Bachelor of Engineering in Computer Science/IT",
+  degree: "Bachelor of Technology in Computer Science Engineering/DS",
   institute: "Nxtwave Innovation of Advanced Technology, Pune",
   graduation: "Expected Graduation: 2029",
-  gpa: "Current GPA: 8.55 / 10.0",
-  year: "First Year (2025-26)",
+  gpa: "Current CGPA: 8.48 / 10.0",
+  year: "Second Year (2026-27)",
   coursework: [
-    "Data Structures",
+    "Design and Analysis of Algorithm",
     "Object-Oriented Programming",
+    "Data Structure Algorithm"
     "Web Development",
     "Database Management Systems",
     "Computer Networks",
